@@ -37,7 +37,7 @@ const EditableRow = ({ index, ...props }) => {
   );
 };
 
-// 可编辑行
+
 const EditableCell = ({
   editing,
   dataIndex,
@@ -53,7 +53,6 @@ const EditableCell = ({
 
   useEffect(() => {
     if (editing) {
-      // Focus the input upon editing
       inputNode.current?.focus();
     }
   }, [editing]);
@@ -87,7 +86,7 @@ const App = () => {
   const [data, setData] = useState([]);
   const [count, setCount] = useState(0);
   const [inputValue, setInputValue] = useState("");
-  const colorBgContainer = "#fff"; // 用假设值代替
+  const colorBgContainer = "#fff"; 
   const [editingKey, setEditingKey] = useState("");
 
   const isEditing = (record) => record.key === editingKey;
@@ -124,13 +123,13 @@ const App = () => {
     const newData = {
       key: count,
       name: inputValue || `${count}`,
-      time: new Date().toLocaleString(), // 这里添加当前时间
+      time: new Date().toLocaleString(),
       age: 32,
       address: `London, Park Lane no. ${count}`,
     };
     setData([...data, newData]);
     setCount(count + 1);
-    setInputValue(""); // 清空输入框
+    setInputValue(""); 
   };
 
   const handleSave = (row) => {
@@ -232,7 +231,6 @@ const App = () => {
     <EditableContext.Provider value={form}>
       <Layout style={{ minHeight: "100vh" }}>
         {" "}
-        {/* 设置最小高度为视口高度 */}
         <Sider
           trigger={null}
           collapsible
@@ -283,7 +281,7 @@ const App = () => {
             style={{
               padding: 0,
               background: colorBgContainer,
-              borderBottom: "1px solid #f0f0f0", // 添加底边线样式以匹配视觉效果
+              borderBottom: "1px solid #f0f0f0", 
             }}
           >
             <Button
