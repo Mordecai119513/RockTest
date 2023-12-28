@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Rock/static/css/main.c927f9ec.css",
-    "main.js": "/Rock/static/js/main.7118c2a2.js",
-    "static/js/787.54ac47ee.chunk.js": "/Rock/static/js/787.54ac47ee.chunk.js",
-    "index.html": "/Rock/index.html",
-    "main.c927f9ec.css.map": "/Rock/static/css/main.c927f9ec.css.map",
-    "main.7118c2a2.js.map": "/Rock/static/js/main.7118c2a2.js.map",
-    "787.54ac47ee.chunk.js.map": "/Rock/static/js/787.54ac47ee.chunk.js.map"
+    "main.css": "/RockTest/static/css/main.c927f9ec.css",
+    "main.js": "/RockTest/static/js/main.f5c04e0e.js",
+    "static/js/787.54ac47ee.chunk.js": "/RockTest/static/js/787.54ac47ee.chunk.js",
+    "index.html": "/RockTest/index.html",
+    "main.c927f9ec.css.map": "/RockTest/static/css/main.c927f9ec.css.map",
+    "main.f5c04e0e.js.map": "/RockTest/static/js/main.f5c04e0e.js.map",
+    "787.54ac47ee.chunk.js.map": "/RockTest/static/js/787.54ac47ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c927f9ec.css",
-    "static/js/main.7118c2a2.js"
+    "static/js/main.f5c04e0e.js"
   ]
 }
